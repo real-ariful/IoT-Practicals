@@ -1,0 +1,38 @@
+<html>
+    <head>
+        User Information Form
+    </head>
+    <style>
+            body {background-color: rgba(0, 238, 255, 0.795);}
+            h1   {color: blue;}
+            
+    </style>
+    <body>
+        <h1>User Information Form</h1>
+            <form action="/formclass.php" method ="post">
+                <input type="text" name="Username" placeholder="Username" /><br /><br />                            
+                <input type="email" name="usermail" placeholder="E-mail" /><br /><br />
+                <input type="password" name="password" placeholder="password" /><br /><br />
+                            
+                                                
+                <input type="radio" name="gender" value="male" checked> Male<br /><br />
+                <input type="radio" name="gender" value="female"> Female<br /><br />
+                <input type="radio" name="gender" value="other"> Other<br /><br />
+
+                <select name="Division">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Khulna" selected>Khulna</option> 
+                <option value="Rangpur">Rangpur</option>
+                </select>
+                <br /><br />
+                            
+                <textarea name="comment" form="usrform">Enter your comment here</textarea>
+                <br /><br />
+                <input type="submit" value="submit"><br /><br />
+
+        
+    </body>
+                        
+</form> 
+</html>
+                    

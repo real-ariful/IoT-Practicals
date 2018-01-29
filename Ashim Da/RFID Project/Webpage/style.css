@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0}
+body {
+	background: #eeeeee;
+	font-family: â€œTrebuchet MSâ€, Verdana, Arial, serif;
+  }
+
+  #brand{padding: 25px;}
+  #brand h2{text-align: center;  }
+  h2.span{font-color: yellow;}
+
+.welcome_section {background: #2ABB9B; text-align: center; padding: 250px; border: 1px #000 solid;
+			color: #fff; font-size: 25px;}
+.welcome_section span{color: rgb(255, 208, 0);}
+.welcome_section h2{font-size: 45px;}
+.welcome_section h4{margin-bottom: 25px;}
+
+.middle {background:rgb(209, 211, 124); text-align: center; padding: 120px}
+
+.wc-button{color: #fff; text-decoration: none; border: 1px solid #fff; padding: 15px 20px 20px 20px; 
+					border-radius: 35px  }
+
+.wc-button:hover{background: #fff; color:  #2ABB9B}
+
+.new_section{ background: url(images/aboutBg.jpg) no-repeat; padding: 100px 50px; background-size: cover; 
+  background-position: center center; background-attachment: fixed;}
+.new_section p{color:#fff; font-size: 25px; border: 1px solid #2ABB9B; background: #2ABB9B33;
+                  border-radius: 70px; text-align: justify;}
+
+
+
+.service_section { background: #f1c40f; overflow: hidden; padding: 100px;}
+.service_section h1{text-align: center; margin-bottom: 50px;}
+.div_text img{ float: left;}
+.div_text ul{ float: right; font-size: 30px;}
+  
+
+<!-- Comments
+
+.info_section{background: #ff0; height: 300px; overflow: hidden;}
+
+.info_box{background: rgb(255, 0, 0); min-height: 180px; width: 450px; margin: 25px 50px; 
+                      padding: 25px 50px; } 
+-->
